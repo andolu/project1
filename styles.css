@@ -3,12 +3,25 @@ body {
     background-color: slategray;
 }
 
-h1 {
-    color: saddlebrown;
-    font-size: 80px;
+h1,h2 {
+    color: burlywood;
+    font-size: 60px;
 }
 
 img{
 
     width: 300px;
+}
+
+/* Jumbotron background and font styles */
+.jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(brewing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      /* Fonts */
+  /* The text-shadow helps the white text stand out better on a darker background */
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
