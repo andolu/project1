@@ -17,55 +17,84 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<!--Navbar-->
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="machines.html">Machines<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="options.html">Options</a>
+            </li>
+            <a class="btn btn-info btn-md" href="contact.html" role="button">Contact Us</a>
+                          
+        </ul>
+        </div>
+    </nav>
+</div>  
 
+<hr class="my-4">
+
+<div class="container text-center">
+    <h1>Let us know how we can help</h1>
+  </div>
     <!--Form-->
+    
     <div class="container my-5">
-    <form netlify>
-        <div class="form-group row">
-          <label for="inputname" class="col-sm-2 col-form-label">First & Last Name</label>
-          <div class="col-sm-10">
-            <input type="name" class="form-control" id="inputname">
+        <form netlify>
+          <div class="form-group">
+            <label for="name">First & Last Name</label>
+            <input type="text" class="form-control" id="name" name="name">
           </div>
-        </div>
-        <div class="form-group row">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3">
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email">
+            <small class="form-text text-muted"></small>
           </div>
-        </div>
-        <div class="form-group row">
-            <label for="inputphone" class="col-sm-2 col-form-label">Phone</label>
-            <div class="col-sm-10">
-              <input type="ephone" class="form-control" id="inputphone">
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="phone" class="form-control" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label>How should we contact you?</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="contactMethod" id="contactEmail" value="email" checked>
+              <label class="form-check-label" for="contactEmail">
+                Email
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="contactMethod" id="contactPhone" value="phone">
+              <label class="form-check-label" for="contactPhone">
+                Phone
+              </label>
+            </div>
             </div>
           </div>
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-2 pt-0">How do you want to be contacted?</legend>
-            <div class="col-sm-10">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                  Phone
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                <label class="form-check-label" for="gridRadios2">
-                  Email
-                </label>
-              </div>
-            </div>
-          </div>
+          <div class = "container">
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
-        </fieldset>
-        
-        <div class="form-group row">
-          <div class="col-sm-10">
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
+        </form>
+      </div>
+
+      <!-- Footer -->
+    <div class="container footer">
+        <div class="col-sm-3">
+          <ul class="list-unstyled mt-3">
+          </ul>
         </div>
+        <div class="col-sm-3">
+          <h6>April 2020</h6>
+          <p class="mt-3"><em>For coffee lovers only!</em></p>
+        </div>
+      </div>
     </div>
-      </form>
 </body>
 </html>
