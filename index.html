@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>l'espresso vuole</title>
+    <title>vuoi l'espresso?</title>
 
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -18,7 +21,7 @@
 <body>
     <!--Navbar-->
        <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,12 +30,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="machines.html">Machines <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="machines.html">Machines<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Options</a>
+                <a class="nav-link" href="options.html">Options</a>
                 </li>
-                               
+                <a class="btn btn-info btn-md" href="contact.html" role="button">Contact Us</a>
+                              
             </ul>
             </div>
         </nav>
@@ -54,10 +58,74 @@
           <h3>Welcome to the world of Espresso!</h3>
         </div>
       </div>
-   
-     <p>
-            This is for espresso lovers only. Not for instant coffee, drip coffee or other types of coffee lovers.
-    </p>
+      <div class="container">
+        <div class="col text-center">
+        <p>
+            This website is for espresso lovers only. Not for instant coffee, drip coffee or other types of coffee lovers. 
+            If you want to make espresso at home but are not sure on how to go about it, you are at the right place.
+        </p>
+       </div>  
+      </div>
+      <div class="container">
+        <div class="col text-center">
+            <h3>
+                A brief history of the espresso machine
+
+            </h3>
+            
+            <!-- Carousel -->
+      <div id="carouselExampleControls" class="carousel slide mt-4" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           
+            <img src="1-machine.jpg" class="img-fluid" alt="1-machine">
+          </div>
+          <div class="carousel-item">
+            <img src="2-machine.jpg" class="img-fluid" alt="2-machine">
+          </div>
+          <div class="carousel-item">
+            <img src="3-machine.jpg" class="img-fluid" alt="3-machine">
+          </div>
+          <div class="carousel-item">
+            <img src="4-machine.jpg" class="img-fluid" alt="4-machine">
+          </div>
+          <div class="carousel-item">
+            <img src="5-machine.jpg" class="img-fluid" alt="5-machine">
+          </div>
+          <div class="carousel-item">
+            <img src="6-machine.jpg" class="img-fluid" alt="6-machine">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+        <p>
+            The first basic prototype for an espresso machine was invented in Turin, Italy in the 1880s, though it looked more like a hot-water heater than the blinged-out coffee hotrods we see in cafés today, and for good reason—that’s basically all it was, a steam boiler designed to heat water in a closed chamber, which would also build up a reserve of pressure that a waiter or bartender could release over a bed of finely ground coffee.
+        </p>
+       </div>  
+      </div>
+    <!-- Footer -->
+    <div class="container footer">
+          <div class="col-sm-3">
+            <ul class="list-unstyled mt-3">
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h6>April 2020</h6>
+            <p class="mt-3"><em>For coffee lovers only!</em></p>
+          </div>
+        </div>
+      </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

@@ -3,15 +3,25 @@ body {
     background-color: slategray;
 }
 
-h1,h2 {
+h1 {
     color: burlywood;
     font-size: 60px;
 }
+
+h2{
+    color: maroon;
+    font-size: 60px;
+    }
+
+button{ 
+        color: palegoldenrod;
+    }
 
 img{
 
     width: 300px;
 }
+
 
 /* Jumbotron background and font styles */
 .jumbotron {
